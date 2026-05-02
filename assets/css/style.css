@@ -5,11 +5,11 @@
 
 :root {
   --header-height: 3rem;
-
+/* cards */
   --first-color: #1d3919;
   --first-color-alt: #1d3919;
   --title-color: #1d3919;
-  --text-color: #;
+  --text-color: #000000;
   --text-color-light: #ffffff;
   --body-color: #c7c7c7;
   --container-color: #ffffff;
@@ -821,5 +821,8 @@ h1 {
   margin: 5px 0;
   text-decoration: none;
   color: #ffffff;
-  font-weight: bold;
-}
+    background-color: #000000;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
